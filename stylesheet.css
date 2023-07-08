@@ -45,8 +45,6 @@ body{
     border-radius: 10px;
     margin: 0px;
 }
-.first-container .right-side{
-}
 .first-container .left-side h1{
     font-size: 48px;
     font-weight: bolder;
@@ -104,7 +102,7 @@ body{
     text-align: center;
 }
 
-.third-container#thor{
+.third-container h6{
     text-align: end;
 }
 
