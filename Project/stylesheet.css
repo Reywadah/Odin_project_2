@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}   
+.header, .first-container, .footer{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    margin: auto;
+}
+.header-background{
+    background-color: #1F2937;
+}
+.header{
+    width: 70%;
+}
+.header a{
+    font: 18px ;
+    color: #E5E7EB;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.header h2{
+    font: 24px;
+    flex: 2;
+}
+.first-background{
+    background-color: #1F2937;
+}
+.first-container{
+    height: auto ;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 100px;
+    width: 70%;
+}
+.first-container .left-side{
+    height: auto;
+    padding-left: 0px;
+    width: 40%;
+}
+.first-container .left-side button{
+    background-color: #3882F6;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin: 0px;
+}
+.first-container .right-side{
+}
+.first-container .left-side h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.first-container img{
+    height: 300px;
+    width: 200px;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+.second-container h2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.second-container .images{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    margin:0 200px 0 200px ;
+    width: auto;
+}
+.second-container .images img{
+    padding: 10px;
+    border: solid #3882F6 4px;
+    border-radius: 10px;
+    text-align: center;
+    height: 90px;
+}
+.second-container .images div{
+    padding: 0px;
+    text-align: center;
+}
+.second-container .images p{
+    font-size: 10px;
+    width: auto;
+    text-overflow: clip;
+}
+
+.third-container{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    font-weight: 0px;
+    padding:40px 200px 10px 200px  ;
+    text-align: center;
+}
+
+.third-container#thor{
+    text-align: end;
+}
+
+.fourth-container{
+    background-color:#3882F6 ;
+    color: white;
+    margin: 40px 200px 40px 200px ;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 100px 10px 100px ;
+    border-radius: 10px;
+}
+
+.fourth-container .left-side{
+    flex: 2;
+    text-align: start;
+}
+.fourth-container .left-side h3{
+    padding-bottom: 0px;
+
+}
+.fourth-container button{
+    border: solid white 1px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    padding: 5px 20px 5px 20px;
+    color: white;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+}
